@@ -4,11 +4,11 @@ AWS (Amazon Web Services) is a cloud platform that offers a wide range of servic
 
 ---
 
-**Amazon S3**
+### Amazon S3
 
 Amazon S3 (Simple Storage Service) is a cloud-based storage service that allows users to store and retrieve large amounts of data securely over the internet. It is highly scalable, meaning it can handle everything from small files to massive datasets. S3 also offers features like versioning, data backup, and encryption to ensure data safety and reliability. This makes it commonly used for websites, applications, backup solutions, and data analytics.
 
-**Steps to create an Amazon S3 bucket:**
+#### Steps to create an Amazon S3 bucket:
 
 - Log in to the **AWS Management Console** and type '**S3**' in the search box, click on **S3**.
 
@@ -34,11 +34,11 @@ Amazon S3 (Simple Storage Service) is a cloud-based storage service that allows 
 
 ---
 
-**IAM Roles**
+### IAM Roles
 
 IAM roles in AWS are used to grant temporary access permissions to users, applications, or services without needing to share long-term credentials. They define what actions are allowed or denied on specific AWS resources. Roles are often used when one AWS service needs to interact securely with another service. This ensures secure and controlled access management across your cloud environment.
 
-**Steps to create an IAM role with S3 and Glue access for the crawler**
+#### Steps to create an IAM role with S3 and Glue access for the crawler:
 
 - Type **IAM** in the search box of the AWS Management Console and click on the first option.
 
@@ -56,13 +56,13 @@ IAM roles in AWS are used to grant temporary access permissions to users, applic
 
 ---
 
-**Crawlers**
+### Crawlers
 
 AWS Glue Crawlers automatically scan data stored in services like S3 to determine its structure and format. They then create or update tables in the AWS Glue Data Catalog, making the data ready for querying and analysis. Crawlers help eliminate manual schema creation and keep metadata up to date as new data arrives. This makes data preparation easier and faster in analytics workflows.
 
 CloudWatch Logs is a service in AWS that collects, monitors, and stores log data from applications, services, and system resources. It helps track performance, troubleshoot issues, and analyze application behavior in real time. You can set alerts to notify you when specific events or errors occur. This makes it useful for maintaining visibility and reliability in cloud environments.
 
-**Creating a crawler in Glue Studio to auto-load the raw data into tables and capturing Cloud Watch logs**
+#### Creating a crawler in Glue Studio to auto-load the raw data into tables and capturing Cloud Watch logs:
 
 - Type **AWS Glue** in the search box of the AWS Management Console and click on the first option.
 
@@ -88,11 +88,11 @@ CloudWatch Logs is a service in AWS that collects, monitors, and stores log data
 
 ---
 
-**Athena**
+### Athena
 
 Amazon Athena is an interactive query service in AWS that allows you to analyze data directly in Amazon S3 using standard SQL. It is serverless, meaning there is no need to set up or manage any infrastructure. You only pay for the amount of data scanned by your queries, making it cost-efficient. Athena integrates seamlessly with the AWS Glue Data Catalog to reference tables and schemas. This makes it easy to run analytics and generate insights quickly without complex data pipelines.
 
-**Configuring Athena for Queries**
+#### Configuring Athena for Queries:
 
 - Type **Athena** in the search box of the Amazon Management Console and click on the first option.
 
@@ -108,7 +108,7 @@ Amazon Athena is an interactive query service in AWS that allows you to analyze 
 
 ---
 
-**Queries to Run in Athena**
+### Queries to Run in Athena
 
 1. This query first calculates the total sales amount for each date in the year 2022. Then, it generates a running (cumulative) total of sales over time, ordered by date. Finally, it displays the first 10 results with both daily and cumulative sales.
 
