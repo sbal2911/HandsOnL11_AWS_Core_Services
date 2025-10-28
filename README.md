@@ -10,17 +10,17 @@ Amazon S3 (Simple Storage Service) is a cloud-based storage service that allows 
 
 **Steps to create an Amazon S3 bucket:**
 
-- Log in to the AWS Management Console and type 'S3' in the search box, click on S3.
+- Log in to the **AWS Management Console** and type '**S3**' in the search box, click on **S3**.
 
-- Click on Create bucket.
+- Click on **Create bucket**.
 
-- Enter a unique bucket name and choose the AWS Region where you want the bucket to be hosted, and select the Bucket type to be General purpose.
+- Enter a **unique bucket name** and choose the **AWS Region** where you want the bucket to be hosted, and select the Bucket type to be **General purpose**.
 
-- Click Create bucket at the bottom, and your S3 bucket will be created successfully.
+- Click **Create bucke**t at the bottom, and your S3 bucket will be created successfully.
 
-- Click on your created Bucket and then create folders - **raw** and **processed**
+- Click on your created Bucket and then **create folders** - **raw** and **processed**
 
-- Inside raw, upload the CSV file named "**Amazon Sale Report.csv**" taken from **https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data**
+- Inside **raw** folder, **upload the CSV file** named "**Amazon Sale Report.csv**" taken from **https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data**
 
 **Below shown are the screenshots of my S3 buckets created and the dataset stored in the raw folder:**
 
