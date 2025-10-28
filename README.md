@@ -1,0 +1,2 @@
+# HandsOnL11_AWS_Core_Services
+HandsOn activity for AWS_Core_Services
